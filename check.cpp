@@ -22,13 +22,23 @@ int main(){
 	//cout<<c+b<<endl; // because of + operator this value give  integer form
 	//cout<<c;
 
-	float c=65.50;
-	char b = 65;
-	c= c+b;
-	cout<<c+b<<endl; // because of + operator this value give  integer form
-	cout<<c;
+	//float c=65.50;
+	//char b = 65;
+	//c= c+b;
+	//cout<<c+b<<endl; // because of + operator this value give  integer form
+	//cout<<c;
 
 
+
+	int x;
+	float f;
+	char c;
+	bool b;
+
+	cout<<x<<endl;
+	cout<<f<<endl;
+	cout<<c<<endl;
+	cout<<b<<endl;
 
 	return 0;
 }
