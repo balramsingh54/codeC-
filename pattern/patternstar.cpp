@@ -1,9 +1,9 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 int main()
 {
-    int i,j,n=1, rows;
+    int i,j, rows;
 
     cout <<"Enter number of rows: ";
     cin >> rows;
@@ -14,7 +14,7 @@ int main()
         {
             if (j>=rows-(i-1)&&(j<=rows+(i-1)))
             {
-                cout<<i;
+                cout<<"*";
             }
             else
             {
