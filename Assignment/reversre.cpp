@@ -31,19 +31,16 @@ void display(int arr[], int size)
 
 int main(int argc, char const *argv[])
 {
-	int size;
-	int arr[size];
-	cout<<"enter numbers ";
+	int size=0;
 	cin>>size;
-	for (int i = 0; i < size; ++i)
+	int arr[size];
+	for (int i = 0; i < size; i++)
 	{
 		cin>>arr[i];
 	}
-
-
 	display(arr, size);
 	reverse(arr, size);
-	display(arr, size);//  continue xecuing not giving output
+	display(arr, size);// this code is not executing 
 
 	return 0;
 }

@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 	n=n&(n-1);
 	count++;
 }
-  cout<<"Ans::::  "<<count;
+  cout<<count;
 
 	return 0;
 }
