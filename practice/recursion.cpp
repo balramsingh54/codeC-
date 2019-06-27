@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 	// int value;
 	// cin>>value;
 	factorial(6);
-	cout<<factorial(6);
+	cout<<factorial(6 );
 
 	return 0;
 }
