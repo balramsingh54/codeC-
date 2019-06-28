@@ -4,19 +4,17 @@ int main(int argc, char const *argv[])
 {
 	// int length=0;
 	int sum=0;
-	int length=1000;
-	int arr[1000];
-	for (int i = 0; i < length; i++)
+	for (int i = 0; i < 1000; i++)
 	{
-		cin>>arr[i];
-		sum = sum+arr[i];
+		cin>>i;
+		sum = sum+i;
 		if (sum<0)
 		{
 			break;
 		}
 		else
 		{
-			cout<<arr[i];
+			cout<<i<<endl;
 		}
 	}
 	return 0;
