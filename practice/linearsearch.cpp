@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+string IntToString(int a)
+{
+	ostringstream temp;
+	temp<<a;
+	return temp.str();
+}
 
 int linearsearch(int arr, int data, int i, int size)
 {
