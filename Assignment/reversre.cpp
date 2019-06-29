@@ -31,8 +31,8 @@ void display(int arr[], int size)
 
 int main(int argc, char const *argv[])
 {
-	int size=0;
-	cin>>size;
+	int size=9;
+	// cin>>size;
 	int arr[size];
 	for (int i = 0; i < size; i++)
 	{
@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 	}
 	display(arr, size);
 	reverse(arr, size);
-	display(arr, size);// this code is not executing 
+	display(arr, size);  // executed
 
 	return 0;
 }
