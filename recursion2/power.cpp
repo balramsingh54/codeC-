@@ -25,6 +25,8 @@ int main(int argc, char const *argv[])
 {
 	int n;
 	int p;
-	cout<<power(5,4);
+	cin>>n;
+	cin>>p;
+	cout<<power(n,p);
 	return 0;
 }

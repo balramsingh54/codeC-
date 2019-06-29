@@ -18,9 +18,8 @@ int fibbonaci(int n)
 
 int main(int argc, char const *argv[])
 {
-
-
-	fibbonaci(6);
-	cout<<fibbonaci(6);
+	int n;
+	cin>>n;
+	cout<<fibbonaci(n);
 	return 0;
 }

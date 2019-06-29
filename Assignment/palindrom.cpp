@@ -2,10 +2,10 @@
 using namespace std;
 
 bool isPalindrome(){
-	string str = "naman";
-
+	char str[1000];
+	cin.getline(str, 1000);
 	int left = 0;
-	int right = str.length() - 1;
+	int right = strlen(str) - 1;
 
 	while(left<=right){
 		if(str[left]!=str[right]){
