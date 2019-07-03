@@ -1,6 +1,5 @@
 #include<iostream>
 #include<algorithm>
-
 using namespace std;
 
 void merge(int arr[],int s,int e){
@@ -48,7 +47,6 @@ void mergeSort(int arr[],int s,int e){
 	}
 
 	int mid = (s + e)/2;
-
 	mergeSort(arr,s,mid);
 	mergeSort(arr,mid+1,e);
 
@@ -58,7 +56,11 @@ void mergeSort(int arr[],int s,int e){
 
 int main(int argc, char const *argv[])
 {
-	int arr[] = {6,5,4,3,2,1};
+	int size;
+	cin>>size;
+	int arr[size];
 	cout<<mergeSort(arr,0,5);
 	return 0;
 }
+
+
