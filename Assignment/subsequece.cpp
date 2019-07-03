@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-int count =0;
 
 void subseq(string str, string ans){
 	if(str.length()==0){
@@ -11,8 +10,8 @@ void subseq(string str, string ans){
 	char ch = str[0];
 	string ros = str.substr(1);
 
-	subseq(ros, ans+ch);
 	subseq(ros, ans);
+	subseq(ros, ans+ch);
  
 }
 
@@ -21,8 +20,5 @@ int main(int argc, char const *argv[])
 	string str;
 	cin>>str;
 	subseq(str,"");
-		{
-			/* code */
-		}	
 	return 0;
 }
