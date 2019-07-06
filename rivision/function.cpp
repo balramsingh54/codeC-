@@ -11,7 +11,7 @@ int main(){
 
 		if(i==5){
 			cout<<"END!"<<endl;
-			// i++;
+			i++;
 			continue;
 		}
 
