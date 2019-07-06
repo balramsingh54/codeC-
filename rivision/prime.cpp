@@ -34,29 +34,25 @@ int main(int argc, char const *argv[])
 // print prime no. from a to b
 	int n, n1,n2,n3,n4;
 	cin>>n;
-	int count1=0;
-	int count2=0;
+	int count[n];
 	int arr[2*n];
 	for (int i = 0; i < 2*n; i++)
 	{
 		cin>>arr[i];
 	}
-	for (int i = arr[0]; i <=arr[1] ; i++)
+	for (int i = 0; i < n-1; i++)
 	{
-		if(sieve[i]){
-			cout<<i<<", "<<endl;
-			count1++;
-		}
+		for (int j = arr[i]; j <=arr[i+1] ; j++)
+			{
+				if(sieve[i])
+					{
+						cout<<i<<", "<<endl;
+						count<<count[i]++;
+					}
+			}
 	}
-	for (int i = arr[2]; i <=arr[3] ; i++)
-	{
-		if(sieve[i]){
-			cout<<i<<", "<<endl;
-			count2++;
-		}
-	}
-	cout<<count1<<endl;
-	cout<<count2;
+	
+	cout<<count[i];
 
 
 	return 0;
