@@ -2,24 +2,24 @@
 using namespace std; 
   
   
-// Function for Solid Rhombus 
-// void solidRhombus(int rows) 
-// { 
-//     int i, j; 
-//     for (i=1; i<=rows; i++) 
-//     { 
-//         // Print trailing spaces 
-//         for (j=1; j<=rows - i; j++) 
-//             cout << " "; 
+//Function for Solid Rhombus 
+void solidRhombus(int rows) 
+{ 
+    int i, j; 
+    for (i=1; i<=rows; i++) 
+    { 
+        // Print trailing spaces 
+        for (j=1; j<=rows - i; j++) 
+            cout << " "; 
               
-//         // Print stars after spaces 
-//         for (j=1; j<=rows; j++) 
-//             cout << "*"; 
+        // Print stars after spaces 
+        for (j=1; j<=rows; j++) 
+            cout << "*"; 
               
-//         // Move to the next line/row 
-//         cout << "\n"; 
-//     } 
-// } 
+        // Move to the next line/row 
+        cout << "\n"; 
+    } 
+} 
   
 // Function for Solid Rhombus 
 void hollowRhombus(int rows) 
