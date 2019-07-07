@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
 					}
 			}
 			arr[i]=count;	
-		}	//cout<<endl;
+		}	//cout<<endl; 9918235164
 	for (int i = 0; i < n; i++)
 		{
 			cout<<arr[i]<<" ";
