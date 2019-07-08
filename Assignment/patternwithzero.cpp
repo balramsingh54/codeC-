@@ -12,11 +12,11 @@ int main()
         {
             if((i==2 || j==1 || j==i))
             {
-                cout<<i-1;
+                cout<<i<<"  ";
             }
             else
             {
-                cout<<("0");
+                cout<<("0")<<"  ";
             }
         }
 
